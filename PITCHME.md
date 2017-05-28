@@ -31,34 +31,21 @@ Goal: maximize direct social benefit
 
 Funding in 2018
 
-- Needs impact proof points
+- Will require proof points
 - Likely goals:
   - healthy online communities
-  - people working together well
-
-- in journalism
-- in science
-- in health
-- in marketing
+  - return of civility and truth
+- domain: journalism, science, health, marketing
 
 ---
 
 Funding Landscape
 
-- Industrial
-  - W3C membership, W3C BGs, Media Lab
-
-- Journalism
-  - Knight, MacArthur, Omidyar
-
-- Science
-  - NSF, Sloan
-
-- Health
-  - NIH
-
-- Partners
-  - EU SemWeb
+- Industrial:  W3C membership, W3C BGs, Media Lab
+- Journalism: Knight, MacArthur, Omidyar
+- Science: NSF, Sloan
+- Health: NIH
+- Partners: EU SemWeb
 
 ---
 
