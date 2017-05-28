@@ -1,40 +1,64 @@
+Progress and Plans
+
+2017
+
+Sandro Hawke
+
+---
+
 Goal: Tip the balance against social software lock-in
 
 ---
 
-Why: Three Examples
- - personal health
- - political activism 
- - resource sharing
+Why? Three Examples
+- personal health data in silos
+- political activism (journalism) controlled by silo providers
+- resource sharing markets (eg uber) in heavily capitalized battle
 
 ---
 
-Funding 2017
- - W3C
- - OpenSocial Foundation
- - Knight Foundation
- - National Science Foundation
+Funding in 2017
+- W3C
+- OpenSocial Foundation (via W3C)
+- National Science Foundation (crosscloud via w3c)
+- Knight Foundation (crosscloud for journalism)
 
- Goal: maximal direct social benefit (not publications)
+Goal: maximize direct social benefit
+
+(not publications)
 
 ---
 
-Funding 2018
+Funding in 2018
 
- Continue from proof of impact
+- Needs impact proof points
+- Likely goals:
+-- healthy online communities
+-- people working together well
 
- Social good = healthy online communities, people working together well
+- in journalism
+- in science
+- in health
+- in marketing
 
- Good Match:
- - W3C
- - Media Lab
- - Knight
- - MacArthur
- - Sloan
- - Omidyar
- - NSF
- - NIH
- - EU partners
+---
+
+Funding Landscape
+
+- Industrial
+-- W3C membership, W3C BGs, Media Lab
+
+- Journalism
+-- Knight, MacArthur, Omidyar
+
+- Science
+-- NSF, Sloan
+
+- Health
+-- NIH
+
+- Partners
+-- EU SemWeb
 
 ---
 
