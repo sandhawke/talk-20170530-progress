@@ -12,7 +12,7 @@ Overview
 - Funding
 - The Adoption Problem
 - "Trusty" architecture
-- Flagship App: Friends + News
+- Flagship App: News with Friends
 - Mastodon Success
 - Mastodon Problems
 - Flagship: Personal Walled Garden
@@ -175,12 +175,6 @@ Building on Mastodon
 
 _Personal Walled-Garden_
 
-- bridging
-- abuse
-- groups =?= sites
-- acceptable search
-- algo feeds
-
 ---
 
 ![Walled Garden](https://s-media-cache-ak0.pinimg.com/originals/78/7b/ca/787bcae2e766d62cf563c9dc6c1a7bc1.jpg)
@@ -208,6 +202,22 @@ Possible MVP within Mastodon UI
     - details on why selected
     - more feedback options
     - shareable away from Mastodon
+
+---
+
+- algo feeds
+    - shows "best" of too much content
+    - reaches out social graph, when too little
+- bridging
+    - feeds can include rss, reddit, maybe twitter
+- abuse
+    - tunable blocking, sharing block info
+    - make content visible to feeds, access controlled
+- groups =?= sites
+    - keep group-identity sites, but allow non-resident participation
+- acceptable search
+    - depth-first in algo feed
+    - maintain opt-in context, avoid triggering
 
 ---
 
