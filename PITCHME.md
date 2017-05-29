@@ -159,7 +159,8 @@ Steps
 * [Shepherding issues](https://github.com/swicg/general/issues)
 * W3C SocialWG
 * W3C SocialCG
-* Discussion / Ideas
+* Business Forum (W3C BG?)
+* Discussions
 * Tools & Demos
 
 ---
@@ -171,3 +172,9 @@ Building on Mastodon
 Personal Garden
 
 ---
+
+* multiple feeds
+* control inbound flow
+* control outbound flow
+
+
