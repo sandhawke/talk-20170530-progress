@@ -19,7 +19,10 @@ Overview
 
 ---
 
-Goal: Tip the balance against social software lock-in
+Goal:
+
+Tip the balance against
+social software lock-in
 
 ---
 
@@ -141,12 +144,14 @@ Mastodon Issues
     - pledge, faq, white-label
 4. Site Lock-In
     - http forwarding
-5. Groups !== Sites
+5. Groups =?= Sites
 
 ---
 
+More Mastodon Issues
+
 6. Socially-Acceptable Search (Context Collapse)
-7. Algorithmic Feeds
+7. Algorithmic Feeds: Too Much/Little Content
 9. In-Page Social Features // silo ecosystem
 8. Apps: github, facebook, instodon,
     - games, resource sharing, health info
@@ -156,25 +161,55 @@ Mastodon Issues
 
 Steps
 
-* [Shepherding issues](https://github.com/swicg/general/issues)
-* W3C SocialWG
-* W3C SocialCG
-* Business Forum (W3C BG?)
-* Discussions
-* Tools & Demos
+- [Shepherding issues](https://github.com/swicg/general/issues)
+- W3C SocialWG
+- W3C SocialCG
+- Business Forum (W3C BG?)
+- Discussions
+- Tools & Demos
 
 ---
 
 Building on Mastodon
 
---- ?image=https://s-media-cache-ak0.pinimg.com/originals/78/7b/ca/787bcae2e766d62cf563c9dc6c1a7bc1.jpg
+_Personal Walled-Garden_
 
-Personal Garden
+- bridging
+- abuse
+- groups =?= sites
+- acceptable search
+- algo feeds
 
 ---
 
-* multiple feeds
-* control inbound flow
-* control outbound flow
+https://s-media-cache-ak0.pinimg.com/originals/78/7b/ca/787bcae2e766d62cf563c9dc6c1a7bc1.jpg
 
+---
 
+feed.studio
+
+* have multiple feeds (gardens)
+* tend each feed, or let it grow organically
+* some control over outbound flow
+
+---
+
+Possible MVP within Mastodon UI
+
+* @bot to create feeds
+* follow it
+* @feed, react to feed to tweak it
+* can be viral
+
+---
+
+* feed profile, posts themselves, hosted on custom instance
+    - details on why selected
+    - more feedback options
+    - shareable away from Mastodon
+
+---
+
+Summary
+
+(tbd)
