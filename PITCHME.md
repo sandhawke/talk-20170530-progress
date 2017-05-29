@@ -182,7 +182,7 @@ _Personal Walled-Garden_
 
 ---
 
-https://s-media-cache-ak0.pinimg.com/originals/78/7b/ca/787bcae2e766d62cf563c9dc6c1a7bc1.jpg
+![Walled Garden](https://s-media-cache-ak0.pinimg.com/originals/78/7b/ca/787bcae2e766d62cf563c9dc6c1a7bc1.jpg)
 
 ---
 
