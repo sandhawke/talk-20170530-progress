@@ -1,4 +1,6 @@
 
+class: middle, center
+
 Progress and Plans for 2017
 
 Sandro Hawke
@@ -20,6 +22,8 @@ Overview
 - New Flagship: Personal Walled Garden
 
 ---
+
+class: middle, center
 
 Goal:
 
@@ -79,13 +83,11 @@ Funding Landscape
 
 ---
 
+class: middle, center
+
 The Adoption Problem
 
 Why Do Decentralized Systems Keep "Failing"?
-
-* Ecosystem player motivations
-    - Business Model, Politics
-* UX
 
 ---
 
@@ -102,7 +104,14 @@ Why Do Decentralized Systems Keep "Failing"?
 
 ---
 
-My Conclusions
+ Roughly:
+
+* Ecosystem player motivations
+    - Business Model, Politics
+* UX
+
+
+Or:
 
 1. the tech is too complicated (for mass adoption)
 2. weak user value proposition (for mass adoption)
@@ -114,6 +123,12 @@ My Conclusions
 All important, but extra focus on #4
 
 Pre-Mastodon
+
+---
+
+class: middle, center
+
+trusty.media
 
 ---
 
@@ -241,15 +256,38 @@ Steps
 
 ---
 
-Major Issue: Social Climate 
+Major Issue: Social Climate
 
-Major Issue: Group !== Identity
-
-Major Issue: Socially-Acceptable Search
-
-Major Issue: Algorithmic Feeds: Too Much/Little Content
+- Spam
+- Bots
+- Unacceptable views (Nazis, feminazi, ...)
+- Clickbait
+- Echo Chambers
+- Criminal activity (dark web)
+- Identity verification
+- Acceptable use policies
+- Veracity management (fake news)
 
 ---
+
+Major Issue: Algorithmic Feeds
+- Too much content
+    - follow lots of people, good content gets lost
+- Too little content
+    - following the wrong people
+    - not following enough people
+
+---
+
+More ...
+
+- Issue: Group !== Identity, Instance !== Community
+    - Participate in conversation without new instance  
+- Issue: Socially-Acceptable Search
+
+---
+
+class: middle, center
 
 _Personal Walled-Garden_
 
@@ -265,7 +303,7 @@ _Show me the stuff I want to see_
 
 _And only the stuff I want to see_
 
-Guided by conscious (better-nature) decisions
+Guided by conscious (better-nature) decisions (not ad revenue)
 
 ---
 
@@ -303,8 +341,10 @@ Addresses Mastodon Problems:
     - shows "best" of too much content
     - reaches out social graph, when too little
 - bridging
-    - feeds can include rss, reddit, maybe twitter, etc
-- abuse
+    - feeds can include at least rss
+    - maybe more-open systems: reddit, tumbr, github
+    - possibly twitter, instagram, ...
+- social climate
     - tunable blocking, sharing block info
     - make content visible to feeds, access controlled
 
@@ -320,11 +360,18 @@ Addresses Mastodon Problems:
 
 ---
 
-Summary
+class: middle
 
-- impact before funding
-- mastodon has momentum
-- help it steer around dangesr
-- lacking feed manager, so provide it
-- especially aim at social impact/journalism
+background-image: url(./garden-faded.jpg)
 
+<div style="font-size: 150%">
+<p>Summary</p>
+
+<ul>
+<li>impact before funding</li>
+<li>mastodon has momentum</li>
+<li>help it steer around dangesr</li>
+<li>provide helpful feed manager</li>
+<li>especially aim at social impact/journalism</li>
+</ul>
+</div>
