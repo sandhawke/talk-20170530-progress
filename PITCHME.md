@@ -132,6 +132,10 @@ and meta claims
 
 ---
 
+![fediverse](https://github.com/sandhawke/mastodon-talk-201705/raw/master/fediverse.png)
+
+---
+
 Mastodon (Adoption?!)
 
 - Decentralized Twitter, using OStatus, started in August
@@ -146,10 +150,17 @@ Mastodon (Adoption?!)
 
 ---
 
+* <a href="https://radar.amberstone.digital/chart/fediverse" target="_blank">radar (bubble chart)</a>
+* <a href="https://metadon.jemu.name/#users" target="_blank">metadon (users, and a lot more)</a>
+* <a href="https://dashboards.mnm.social/" target="_blank">mnm, time series dashboard</a>
+
+---
+
+
 Mastodon Issues
 
 1. Bridging
-2. Abuse
+2. Abuse (Social Climate)
 3. Ecosystem Fragility
     - pledge, faq, white-label
 4. Site Lock-In
@@ -162,7 +173,7 @@ More Mastodon Issues
 
 - 6 Socially-Acceptable Search (Context Collapse)
 - 7 Algorithmic Feeds: Too Much/Little Content
-- 9 In-Page Social Features // silo ecosystem
+- 9 In-Page Social Features
 - 8 Apps: github, facebook, instodon,
     - games, resource sharing, health info
 - 10 Interop for forks, new impls, protocol evolution
@@ -222,7 +233,7 @@ Natural Web UI
     - more feedback options
     - shareable away from Mastodon
 
-Later: additional UI features for nuanced reactions
+Later: additional UI features for nuanced reactions (push extensibility)
 
 ---
 
