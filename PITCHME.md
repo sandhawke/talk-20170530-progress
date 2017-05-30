@@ -15,29 +15,35 @@ Overview
     - Motivation
     - Funding
     - The Adoption Problem
-- Pre-Mastodon    
+- Pre-Mastodon Focus
     - "Trusty": News with Friends
 - Mastodon Success
 - Mastodon Problems
-- New Flagship: Personal Walled Garden
+- New Focus
 
 ---
 
 class: middle, center
 
-Goal:
+ Goal
 
-Tip the balance
-against
-social software lock-in
+
 
 ---
+
+ Goal: Tip the balance against social software lock-in
 
 Why? Three Examples:
 
 - personal health data in silos
+    - integration of health data sources
+    - viable market for analyzing that data
 - political news controlled by silo providers
+    - political divisions, manipulation
+    - terrorism, authoritarianism
 - resource sharing (eg uber) in silo battle
+    - uber's huge valuation suggests anticipated lock-in
+
 
 ---
 
@@ -50,7 +56,7 @@ Funding in 2017
 
 ---
 
-2017 Deliverables
+NSF+KF Deliverables
 
 - bootstrap crosscloud ecosystem
     - show solid evidence of adoption
@@ -91,38 +97,40 @@ Why Do Decentralized Systems Keep "Failing"?
 
 ---
 
-- Low-Crypto
-    - Diaspora* / Friendica / Hubzilla (15k mau)
-    - status.net / gnustatus / postActive
-    - IndieWebCamp
-    - [24 others](https://en.wikipedia.org/wiki/Comparison_of_software_and_protocols_for_distributed_social_networking)
-- High-Crypto
-    - IPFS
-    - MaidSafe
-    - Scuttlebutt
-    - [14+ others](https://www.scuttlebutt.nz/#other_projects)
+Low-Crypto
+
+- Diaspora* / Friendica / Hubzilla (15k mau)
+- status.net / gnustatus / postActive
+- IndieWebCamp
+- [24 others](https://en.wikipedia.org/wiki/Comparison_of_software_and_protocols_for_distributed_social_networking)
+
+High-Crypto
+- IPFS
+- MaidSafe
+- Scuttlebutt
+- [14+ others](https://www.scuttlebutt.nz/#other_projects)
 
 ---
 
  Roughly:
 
 * Ecosystem player motivations
-    - Business Model, Politics
+    - Business Model
+    - Politics and Personalities
 * UX
+* Seems like another silo
 
 
-Or:
+My Practical List:
 
 1. the tech is too complicated (for mass adoption)
 2. weak user value proposition (for mass adoption)
 3. weak host motivation (for mass adoption)
-4. not welcoming of decentralized extensibility
+4. not welcoming of <b>decentralized extensibility</b>
     - only core team gets to have fun/impact as coders
     - no room for 3rd party apps / vendors
 
-All important, but extra focus on #4
-
-Pre-Mastodon
+(Pre-Mastodon)
 
 ---
 
@@ -134,10 +142,10 @@ trusty.media
 
 Trusty Media
 
-- Flagship App for "Trusty" Platform
 - <i>Friends helping friends understand the news</i>
 - Communicate via Agreement with Claims
 - and meta claims
+- viral through social-media link-backs
 
 ---
 
@@ -160,7 +168,8 @@ class: middle
 
 Mastodon (Adoption!)
 
-- Decentralized Twitter, using OStatus, started in August
+- Decentralized Microbloggin (aka Twitter), using OStatus
+    - 0.1 release Mar 2016, 1.0 release Feb 5 2017
     - interop with gnustatus, postActive, ... (status.net)
 - Appears to scale well (like email)
     - 1500+ servers
@@ -232,9 +241,13 @@ Solution? HTTP 3xx Redirects
 
 Major Issue: In-Page Social Features
 
+- social features ("Like", comments) in normal web pages
+
 ---
 
 Major Issue: Interop Beyond Mastodon
+
+- danger of monoculture
 
 ---
 
@@ -307,31 +320,50 @@ Guided by conscious (better-nature) decisions (not ad revenue)
 
 ---
 
+Problems with Algorithmic Feeds
+
+- one channel (even if it's good)
+- sacrifice privacy to tune it
+- not allowed to see how it's tuned
+- impossible to understand its reasoning (neural nets)
+- intertwined with social issues (collaborative filtering)
+- motivated to engage for ad revenue
+
+Solution?
+
+- Today: use multiple silos, multiple accounts
+
+(But I want One Web)
+
+---
+
 feed.studio
 
-* create 1+ feeds for yourself, others
-* tend each feed, guiding it while it grows
-* private feeds for outbound control
+- create 1+ feeds for yourself, others
+- tend each feed, guiding it while it grows
+- controlled access
+    - who can see what you like
+    - who can see what you say
 
 ---
 
 Possible MVP within Mastodon UI
 
-* @new@feed.studio to create a feed
+* tag @new@feed.studio to create a feed
 * follow it to see stuff it's got
-* @feedNNN@feed.studio, or react to items to adjust it
-* can be viral, as people discover feed
+* to adjust: tag @feedNNN@feed.studio, or react to items
+* can be viral, as people discover feed (eg when you boost)
 
 ---
 
-Natural Web UI
+Then: Natural Web UI
 
 * feed profile, posts themselves, hosted on custom instance
     - details on why selected
     - more feedback options
     - shareable away from Mastodon
 
-Later: additional UI features for nuanced reactions (push extensibility)
+Later: additional UI features for nuanced reactions (pushing extensibility)
 
 ---
 
@@ -370,8 +402,8 @@ background-image: url(./garden-faded.jpg)
 <ul>
 <li>impact before funding</li>
 <li>mastodon has momentum</li>
-<li>help it steer around dangesr</li>
-<li>provide helpful feed manager</li>
-<li>especially aim at social impact/journalism</li>
+<li>help it steer around dangers</li>
+<li>provide a user-controlled feed manager</li>
+<li>aim for social impact + journalism</li>
 </ul>
 </div>
