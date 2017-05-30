@@ -190,9 +190,11 @@ _Personal Walled-Garden_
 
 ---
 
-Show me the stuff I want to see
+_Show me the stuff I want to see_
 
-And only the stuff I want to see
+_And only the stuff I want to see_
+
+Guided by conscious (better-nature) decisions
 
 ---
 
