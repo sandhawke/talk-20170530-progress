@@ -1,17 +1,20 @@
-Progress and Plans
 
-May 30, 2017
+Progress and Plans for 2017
 
 Sandro Hawke
+
+May 30, 2017
 
 ---
 
 Overview
 
-- Motivation
-- Funding
-- The Adoption Problem
-- "Trusty": News with Friends
+- Problem Space
+    - Motivation
+    - Funding
+    - The Adoption Problem
+- Pre-Mastodon    
+    - "Trusty": News with Friends
 - Mastodon Success
 - Mastodon Problems
 - New Flagship: Personal Walled Garden
@@ -36,7 +39,7 @@ Why? Three Examples:
 
 Funding in 2017
 
-- W3C Member Funding (other stuff: rdf data shapes)
+- W3C Member Funding (for non-crosscloud work)
 - OpenSocial via W3C: Social Web standards
 - NSF: Bootstrap Crosscloud at W3C
 - Knight Foundation: Crosscloud for journalism
@@ -110,15 +113,16 @@ My Conclusions
 
 All important, but extra focus on #4
 
+Pre-Mastodon
+
 ---
 
-Trusty Media  (Flagship App)
+Trusty Media
 
-<i>Friends helping friends understand the news</i>
-
-Communicate via Agreement with Claims
-
-and meta claims
+- Flagship App for "Trusty" Platform
+- <i>Friends helping friends understand the news</i>
+- Communicate via Agreement with Claims
+- and meta claims
 
 ---
 
@@ -131,8 +135,11 @@ Trusty Architecture
 
 ---
 
+background-image: url(https://github.com/sandhawke/mastodon-talk-201705/raw/master/fediverse.png)
 
-![fediverse](https://github.com/sandhawke/mastodon-talk-201705/raw/master/fediverse.png)
+class: middle
+
+# Mastodon
 
 ---
 
@@ -143,40 +150,83 @@ Mastodon (Adoption!)
 - Appears to scale well (like email)
     - 1500+ servers
     - biggest servers ~100k users, so far
-- phenominal success recently
-    - pitched as Twitter without the bad people
+- phenominal success [<a href="https://radar.amberstone.digital/chart/fediverse" target="_blank">radar</a> <a href="https://metadon.jemu.name/#users" target="_blank">metadon</a> <a href="https://dashboards.mnm.social/" target="_blank">mnm</a>]
+    - often pitched as Twitter without the bad people
     - Moderation by instance (site) admins
     - many UIs
 
----
-
-* <a href="https://radar.amberstone.digital/chart/fediverse" target="_blank">radar (bubble chart)</a>
-* <a href="https://metadon.jemu.name/#users" target="_blank">metadon (users, and a lot more)</a>
-* <a href="https://dashboards.mnm.social/" target="_blank">mnm, time series dashboard</a>
+![mastodon logo](https://assets.mastodon.social/packs/fluffy-elephant-friend-cc7707eb7d15da8501a56e0c5a4fb238.png)
 
 ---
 
+Major Issue: Ghost Town
 
-Mastodon Issues
+- Appears solved
+    - Community instances
+    - Massive march influx
+    
+---
 
-- Bridging
-- Abuse (Social Climate)
-- Ecosystem Fragility
-    - pledge, faq, white-label
-- Site Lock-In
-    - http forwarding
-- Groups =?= Sites
+Major Issue: It's One More Silo
+
+- Some people want their _existing_ content sources
+- Some people want their _existing_ audience
+- (simultaneous migration problem)
+
+Solution? Bridging
+
+- Technology: challenging
+    - silo API via bridge site like brid.gy
+    - eg sandhawke@tw.multi.social
+- Social: challenging
+    - opt-in by followers
+    - opt-out by individuals
+- Legal: challenging
+    - Facebook v. Power Ventures
+    - politics
 
 ---
 
-More Mastodon Issues
+Major Issue: Selecting An Instance
 
-- Socially-Acceptable Search (Context Collapse)
-- Algorithmic Feeds: Too Much/Little Content
-- In-Page Social Features
-- Apps: github, facebook, instodon,
-    - games, resource sharing, health info
-- Interop for forks, new impls, protocol evolution
+- How do you pick your new identity?
+- Who do you trust to host?
+
+Solution?  Improve the Market
+
+- Standardize ToS
+- Anti-Lock-In Pledge
+- [Admin FAQ](https://github.com/sandhawke/admin-survey/blob/master/README.md)
+- White-Label hosting
+- Non-Zero-Price hosting
+
+---
+
+Major Issue: Instance Lock-In
+
+- What if you don't like them any more?
+- What if they're shutting down?
+
+Solution? HTTP 3xx Redirects
+
+- 80% solution: only works at a level of decency
+- Current implementations are weak on this
+- Likely within reach, with a push
+
+---
+
+Major Issue: In-Page Social Features
+
+---
+
+Major Issue: Interop Beyond Mastodon
+
+---
+
+Major Issue: Beyond Microblogging
+
+- other areas: github, facebook, instodon,
+- games, resource sharing, health info
 
 ---
 
@@ -187,17 +237,27 @@ Steps
 - W3C SocialCG
 - Business Forum (W3C BG?)
 - Discussions
-- Tools & Demos
+- Maybe: Tools & Demos
 
 ---
 
-Building on Mastodon
+Major Issue: Social Climate 
+
+Major Issue: Group !== Identity
+
+Major Issue: Socially-Acceptable Search
+
+Major Issue: Algorithmic Feeds: Too Much/Little Content
+
+---
 
 _Personal Walled-Garden_
 
+(Built for Mastodon)
+
 ---
 
-![Walled Garden](https://s-media-cache-ak0.pinimg.com/originals/78/7b/ca/787bcae2e766d62cf563c9dc6c1a7bc1.jpg)
+background-image: url(https://s-media-cache-ak0.pinimg.com/originals/78/7b/ca/787bcae2e766d62cf563c9dc6c1a7bc1.jpg)
 
 ---
 
@@ -264,6 +324,7 @@ Summary
 
 - impact before funding
 - mastodon has momentum
+- help it steer around dangesr
 - lacking feed manager, so provide it
 - especially aim at social impact/journalism
 
