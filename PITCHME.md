@@ -1,6 +1,6 @@
 Progress and Plans
 
-2017
+May 30, 2017
 
 Sandro Hawke
 
@@ -21,45 +21,48 @@ Overview
 
 Goal:
 
-Tip the balance against
+Tip the balance
+against
 social software lock-in
 
 ---
 
-Why? Three Examples
+Why? Three Examples:
 
 - personal health data in silos
-- political activism (journalism) controlled by silo providers
-- resource sharing markets (eg uber) in heavily capitalized battle
+- political news controlled by silo providers
+- resource sharing (eg uber) in silo battle
 
 ---
 
 Funding in 2017
 
-- ~0.6 FTE (remainder W3C Member Funding + OpenSocial)
-- National Science Foundation (crosscloud via w3c)
-- Knight Foundation (crosscloud for journalism)
+- W3C Member Funding (other stuff: rdf data shapes)
+- OpenSocial via W3C: Social Web standards
+- National Science Foundation: Bootstrap Crosscloud at W3C
+- Knight Foundation: Crosscloud for journalism
 
 ---
 
 2017 Deliverables (High Level)
 
-- "bootstrap crosscloud ecosystem"
-- show solid evidence of adoption
-- ... toward clear social benefit
+- bootstrap crosscloud ecosystem
+    - show solid evidence of adoption
+    - toward clear social benefit
 
-(_not publications_)
+- not publications
 
 ---
 
-Thoughts on Funding in 2018
+Thoughts on Funding for 2018
 
-- based on success in 2017 (proof points)
+- should be based on success in 2017 (proof points)
 - Likely goals:
     - civility and truth, online
     - healthy communities
-    - ...?
-- domains: journalism, science, health, marketing
+    - connecting members of a profession
+        - "twitter at work"
+- domains: news media, science, health, marketing
 
 ---
 
@@ -67,9 +70,9 @@ Funding Landscape
 
 - Industrial:  W3C membership, W3C BGs, Media Lab
     - Intermediated Content Providers
-- Journalism: Knight, MacArthur, Omidyar
-- Science: NSF, Sloan
-- Health: NIH
+    - Knowledge Workers 
+- Foundations: Knight, MacArthur, Omidyar, Sloan
+- Gov't: NSF, NIH
 - Partners: EU SemWeb
 
 ---
@@ -80,7 +83,7 @@ Why Do Decentralization Systems Keep "Failing"?
 
 (ie not going mainstream)
 
-* Motivations
+* Ecosystem player motivations
     - Business Model, Politics
 * UX
 
@@ -103,7 +106,7 @@ My Conclusions
 
 1. the tech is too complicated (for mass adoption)
 2. weak user value proposition (for mass adoption)
-3. weak site admin motivation (for mass adoption)
+3. weak host motivation (for mass adoption)
 4. lack of decentralized extensibility
     - only core team gets to have fun as coders
     - no room for 3rd party apps / vendors
@@ -131,17 +134,25 @@ and meta claims
 
 ---
 
-Mastodon
+Mastodon (Adoption?!)
 
-[summary / details TBD]
+- Decentralized Twitter, using OStatus, started in August
+    - interop with gnustatus, postActive, ... (status.net)
+- Appears to scale well (like email)
+    - 1500+ servers
+    - biggest servers ~100k users, so far
+- phenominal success recently
+    - pitched as Twitter without the bad people
+    - Moderation by instance (site) admins
+    - many UIs
 
 ---
 
 Mastodon Issues
 
 1. Bridging
-2. Abuse, "Abuse"
-3. Ecosystem
+2. Abuse
+3. Ecosystem Fragility
     - pledge, faq, white-label
 4. Site Lock-In
     - http forwarding
@@ -151,12 +162,12 @@ Mastodon Issues
 
 More Mastodon Issues
 
-6. Socially-Acceptable Search (Context Collapse)
-7. Algorithmic Feeds: Too Much/Little Content
-9. In-Page Social Features // silo ecosystem
-8. Apps: github, facebook, instodon,
+- 6. Socially-Acceptable Search (Context Collapse)
+- 7. Algorithmic Feeds: Too Much/Little Content
+- 9. In-Page Social Features // silo ecosystem
+- 8. Apps: github, facebook, instodon,
     - games, resource sharing, health info
-10. Interop for forks
+- 10. Interop for forks, new impls, protocol evolution
 
 ---
 
@@ -181,19 +192,19 @@ _Personal Walled-Garden_
 
 ---
 
-feed.studio
+feed manager (feed.studio?)
 
-* have multiple feeds (gardens)
-* tend each feed, or let it grow organically
-* some control over outbound flow
+* manage 1+ feeds
+* tend each feed, guiding it while it grows
+* private feeds work for outbound control
 
 ---
 
 Possible MVP within Mastodon UI
 
-* @bot to create feeds
+* @new@feed.studio to create a feed
 * follow it
-* @feed, react to feed to tweak it
+* @feedNNN@feed.studio or react to feed to adjust it
 * can be viral
 
 ---
@@ -206,7 +217,7 @@ Possible MVP within Mastodon UI
 ---
 
 - algo feeds
-    - shows "best" of too much content
+    - shows "best" of too much content (truth)
     - reaches out social graph, when too little
 - bridging
     - feeds can include rss, reddit, maybe twitter
@@ -223,4 +234,8 @@ Possible MVP within Mastodon UI
 
 Summary
 
-(tbd)
+- impact before funding
+- mastodon has momentum
+- lacking feed manager, so provide it
+- especially aim at social impact/journalism
+
