@@ -14,7 +14,7 @@ Overview
 - "Trusty": News with Friends
 - Mastodon Success
 - Mastodon Problems
-- Flagship: Personal Walled Garden
+- New Flagship: Personal Walled Garden
 
 ---
 
@@ -43,7 +43,7 @@ Funding in 2017
 
 ---
 
-2017 Deliverables (High Level)
+2017 Deliverables
 
 - bootstrap crosscloud ecosystem
     - show solid evidence of adoption
