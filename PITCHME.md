@@ -81,8 +81,6 @@ The Adoption Problem
 
 Why Do Decentralization Systems Keep "Failing"?
 
-(ie not going mainstream)
-
 * Ecosystem player motivations
     - Business Model, Politics
 * UX
@@ -107,8 +105,8 @@ My Conclusions
 1. the tech is too complicated (for mass adoption)
 2. weak user value proposition (for mass adoption)
 3. weak host motivation (for mass adoption)
-4. lack of decentralized extensibility
-    - only core team gets to have fun as coders
+4. not welcoming of decentralized extensibility
+    - only core team gets to have fun/impact as coders
     - no room for 3rd party apps / vendors
 
 All important, but extra focus on #4
@@ -162,12 +160,12 @@ Mastodon Issues
 
 More Mastodon Issues
 
-- 6. Socially-Acceptable Search (Context Collapse)
-- 7. Algorithmic Feeds: Too Much/Little Content
-- 9. In-Page Social Features // silo ecosystem
-- 8. Apps: github, facebook, instodon,
+- 6 Socially-Acceptable Search (Context Collapse)
+- 7 Algorithmic Feeds: Too Much/Little Content
+- 9 In-Page Social Features // silo ecosystem
+- 8 Apps: github, facebook, instodon,
     - games, resource sharing, health info
-- 10. Interop for forks, new impls, protocol evolution
+- 10 Interop for forks, new impls, protocol evolution
 
 ---
 
@@ -192,38 +190,55 @@ _Personal Walled-Garden_
 
 ---
 
-feed manager (feed.studio?)
+Show me the stuff I want to see
 
-* manage 1+ feeds
+And only the stuff I want to see
+
+---
+
+feed.studio
+
+* create 1+ feeds for yourself, others
 * tend each feed, guiding it while it grows
-* private feeds work for outbound control
+* private feeds for outbound control
 
 ---
 
 Possible MVP within Mastodon UI
 
 * @new@feed.studio to create a feed
-* follow it
-* @feedNNN@feed.studio or react to feed to adjust it
-* can be viral
+* follow it to see stuff it's got
+* @feedNNN@feed.studio, or react to items to adjust it
+* can be viral, as people discover feed
 
 ---
+
+Natural Web UI
 
 * feed profile, posts themselves, hosted on custom instance
     - details on why selected
     - more feedback options
     - shareable away from Mastodon
 
+Later: additional UI features for nuanced reactions
+
 ---
 
+Addresses Mastodon Problems:
+
 - algo feeds
-    - shows "best" of too much content (truth)
+    - shows "best" of too much content
     - reaches out social graph, when too little
 - bridging
-    - feeds can include rss, reddit, maybe twitter
+    - feeds can include rss, reddit, maybe twitter, etc
 - abuse
     - tunable blocking, sharing block info
     - make content visible to feeds, access controlled
+
+---
+
+Addresses Mastodon Problems:
+
 - groups =?= sites
     - keep group-identity sites, but allow non-resident participation
 - acceptable search
