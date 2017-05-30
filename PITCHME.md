@@ -11,8 +11,7 @@ Overview
 - Motivation
 - Funding
 - The Adoption Problem
-- "Trusty" architecture
-- Flagship App: News with Friends
+- "Trusty": News with Friends
 - Mastodon Success
 - Mastodon Problems
 - Flagship: Personal Walled Garden
@@ -39,7 +38,7 @@ Funding in 2017
 
 - W3C Member Funding (other stuff: rdf data shapes)
 - OpenSocial via W3C: Social Web standards
-- National Science Foundation: Bootstrap Crosscloud at W3C
+- NSF: Bootstrap Crosscloud at W3C
 - Knight Foundation: Crosscloud for journalism
 
 ---
@@ -79,7 +78,7 @@ Funding Landscape
 
 The Adoption Problem
 
-Why Do Decentralization Systems Keep "Failing"?
+Why Do Decentralized Systems Keep "Failing"?
 
 * Ecosystem player motivations
     - Business Model, Politics
@@ -113,16 +112,7 @@ All important, but extra focus on #4
 
 ---
 
-"Trusty"
-
-1. simple-ish tech (refining cyan)
-2. user value: non-fake news, real knowledge
-3. admin motive: commercial
-4. dist-extn via template sentences (language-as-a-format)
-
----
-
-Trusty: Flagship
+Trusty Media  (Flagship App)
 
 <i>Friends helping friends understand the news</i>
 
@@ -132,11 +122,21 @@ and meta claims
 
 ---
 
+Trusty Architecture
+
+1. simple-ish tech (refining cyan)
+2. user value: non-fake news, real knowledge
+3. admin motive: commercial
+4. dist-extn via template sentences (language-as-a-format)
+
+---
+
+
 ![fediverse](https://github.com/sandhawke/mastodon-talk-201705/raw/master/fediverse.png)
 
 ---
 
-Mastodon (Adoption?!)
+Mastodon (Adoption!)
 
 - Decentralized Twitter, using OStatus, started in August
     - interop with gnustatus, postActive, ... (status.net)
@@ -159,24 +159,24 @@ Mastodon (Adoption?!)
 
 Mastodon Issues
 
-1. Bridging
-2. Abuse (Social Climate)
-3. Ecosystem Fragility
+- Bridging
+- Abuse (Social Climate)
+- Ecosystem Fragility
     - pledge, faq, white-label
-4. Site Lock-In
+- Site Lock-In
     - http forwarding
-5. Groups =?= Sites
+- Groups =?= Sites
 
 ---
 
 More Mastodon Issues
 
-- 6 Socially-Acceptable Search (Context Collapse)
-- 7 Algorithmic Feeds: Too Much/Little Content
-- 9 In-Page Social Features
-- 8 Apps: github, facebook, instodon,
+- Socially-Acceptable Search (Context Collapse)
+- Algorithmic Feeds: Too Much/Little Content
+- In-Page Social Features
+- Apps: github, facebook, instodon,
     - games, resource sharing, health info
-- 10 Interop for forks, new impls, protocol evolution
+- Interop for forks, new impls, protocol evolution
 
 ---
 
